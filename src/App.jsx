@@ -4,7 +4,7 @@ import './App.scss'
 import Nav from './components/Nav'
 import Links from './Links'
 import Cursor from './components/Cursor'
-import white-joker from '../public/assets/joker-white.png'
+// import white-joker from '../public/assets/joker-white.png'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -14,7 +14,7 @@ function App() {
   const LoadingScreen = () => {
     return (
       <div className='loading-screen' id='loadingScreen'>
-        <img src={white-joker} alt="" className='loading-joker' />
+        <img src="../public/assets/joker-white.png" alt="" className='loading-joker' />
         <h1 className='loading-logo'>samantha mitchell</h1>
 
     </div>
