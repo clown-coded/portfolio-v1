@@ -1,11 +1,6 @@
 import { useState } from 'react'
-
+import joker from '../../public/assets/joker-card-black-portfolio.png'
 const Home = () => {
-  const [loading, setLoading] = useState(true)
-
-  
-
- 
 
   const HomeContent = () => {
     return (
@@ -16,7 +11,7 @@ const Home = () => {
      <div className='joker-container'>
         <span className='click-zone'>  </span>
         {/* <Link to={'/secret'} onClick={console.log('clicked')} ></Link> */}
-    <img src="../../public/assets/joker-card-black-portfolio.png" alt="" className='joker'/>
+    <img src={joker} alt="" className='joker'/>
       </div>
     </div>
     
