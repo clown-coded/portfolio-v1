@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import cursor from '../../public/assets/cursor.png'
 
 const Cursor = () => {
     
@@ -25,7 +26,7 @@ const Cursor = () => {
    
    
   return (
-      <div className='cursor' style={{ transform: 'translate3d(' + mousePosition.x + 'px, ' + mousePosition.y + 'px, 0)' }}> <img src="src\assets\cursor.png" alt="" /></div>
+      <div className='cursor' style={{ transform: 'translate3d(' + mousePosition.x + 'px, ' + mousePosition.y + 'px, 0)' }}> <img src={cursor} alt="" /></div>
   )
 }
 
