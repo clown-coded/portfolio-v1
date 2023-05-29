@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import image1 from '../assets/aesthete/aesthete-mockup-1.png'
-import image2 from '../assets/aesthete/aesthete-mockup-2.png'
-import image3 from '../assets/aesthete/aesthete-mockup-3.png'
-import video from '../assets/aesthete/aesthete-4.mp4'
+import image1 from '../../public/assets/aesthete/aesthete-mockup-1.png'
+import image2 from '../../public/assets/aesthete/aesthete-mockup-2.png'
+import image3 from '../../public/assets/aesthete/aesthete-mockup-.3png'
+import video from '../../public/assets/aesthete/aesthete-4.mp4'
 
 const Aesthete = () => {
 const [loading, setLoading] = useState(true)

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import image1 from '../assets/transport/transport-mockup-1.png'
-import image2 from '../assets/transport/transport-mockup-2.png'
-import video from '../assets/transport/transport-2.mp4'
-import video2 from '../assets/transport/transport-4.mp4'
+import image1 from '../../public/assets/transport/transport-mockup-1.png'
+import image2 from '../../public/assets/transport/transport-mockup-2.png'
+import video from '../../public/assets/transport/transport-2.mp4'
+import video2 from '../../public/assets/transport/transport-4.mp4'
 
 const Transport = () => {
 const [loading, setLoading] = useState(true)

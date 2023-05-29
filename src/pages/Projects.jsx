@@ -133,7 +133,7 @@ const Projects = () => {
      <div className='joker-container'>
         <span className='click-zone'>  </span>
         {/* <Link to={'/secret'} onClick={console.log('clicked')} ></Link> */}
-    <img src="../src/assets/joker-card-black-portfolio.png" alt="" className='joker'/>
+        <img src="../../public/assets/joker-card-black-portfolio.png" alt="" className='joker'/>
       </div>
     </div>
   )
