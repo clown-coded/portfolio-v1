@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import joker from '../../public/assets/joker-card-black-portfolio.png'
+
 const Home = () => {
 
   const HomeContent = () => {

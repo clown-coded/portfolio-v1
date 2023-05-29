@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import joker from '../../public/assets/joker-card-black-portfolio.png'
 
 const Info = () => {
   
@@ -16,7 +17,7 @@ const Info = () => {
       <div className='joker-container'>
         <span className='click-zone'>  </span>
         {/* <Link to={'/secret'} onClick={console.log('clicked')} ></Link> */}
-        <img src="../../public/assets/joker-card-black-portfolio.png" alt="" className='joker'/>
+        <img src={joker} alt="" className='joker'/>
       </div>
       
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import joker from '../../public/assets/joker-card-black-portfolio.png'
 
 const Contact = () => {
   return (
@@ -15,7 +16,7 @@ const Contact = () => {
       <div className='joker-container'>
         <span className='click-zone'></span>
         {/* <Link to={'/secret'} onClick={console.log('clicked')} ></Link> */}
-        <img src="../../public/assets/joker-card-black-portfolio.png" alt="" className='joker'/>
+        <img src={joker} alt="" className='joker'/>
       </div>
     </div>
   )
