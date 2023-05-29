@@ -455,7 +455,7 @@ a, a:link, a:visited, a:hover, a:active{
     border-bottom: 2px solid black;
     overflow-y: scroll;
 }
-.project-page > .joker-container {
+.projects-container > .joker-container {
     left: 0;
 }
 
@@ -597,8 +597,8 @@ a, a:link, a:visited, a:hover, a:active{
     border-bottom: 2px solid black;
     overflow-y: scroll;
 }
-.project-page > .joker {
- bottom: 200px;
+.projects-container > .joker-container {
+    left: 0;
 }
 
 
@@ -785,6 +785,9 @@ a, a:link, a:visited, a:hover, a:active{
     top: 40%;
     left: 100px;
    
+}
+.projects-container > .joker-container {
+    left: 0;
 }
 .click-zone{
     height: 200px;

@@ -128,14 +128,16 @@ const Projects = () => {
           {project4Open &&
            <Project1/>}
         </div>
-
-      </div>
-
-     <div className='joker-container'>
+         <div className='joker-container'>
         <span className='click-zone'>  </span>
         {/* <Link to={'/secret'} onClick={console.log('clicked')} ></Link> */}
         <img src={joker} alt="" className='joker'/>
       </div>
+
+      </div>
+      
+
+    
     </div>
   )
 }
