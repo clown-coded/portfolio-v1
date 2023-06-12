@@ -10,7 +10,7 @@ const Home = () => {
 
       
      <div className='joker-container'>
-        <span className='click-zone'>  </span>
+        {/* <span className='click-zone'>  </span> */}
         {/* <Link to={'/secret'} onClick={console.log('clicked')} ></Link> */}
     <img src={joker} alt="" className='joker'/>
       </div>
