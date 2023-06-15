@@ -116,7 +116,7 @@ const Projects = () => {
         </div>
 
         <div className='project' id='project3' onClick={openThirdProject}>
-          <span className='project-title'>03. letting space</span>
+          <span className='project-title'>03. 1154 Pastaria</span>
           <span className='project-year'>2022</span>
           {project3Open &&
            <Project1/>}
