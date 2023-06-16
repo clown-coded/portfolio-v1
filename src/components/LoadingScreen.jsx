@@ -1,4 +1,3 @@
-import React from 'react'
 import joker from '../../public/assets/joker-white.png'
 
 const LoadingScreen = () => {
