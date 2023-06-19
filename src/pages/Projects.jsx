@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import Project1 from '../components/Aesthete'
 import Aesthete from '../components/Aesthete'
 import Transport from '../components/Transport'
+import Restaurant from '../components/Restaurant'
 import joker from '../../public/assets/joker-card-black-portfolio.png'
+import Meanwhile from '../components/Meanwhile'
 
  
 const Projects = () => {
@@ -10,86 +12,171 @@ const Projects = () => {
   const [project2Open, openProject2] = useState(false)
   const [project3Open, openProject3] = useState(false)
   const [project4Open, openProject4] = useState(false)
-   const screenWidth = window.innerWidth;
-
-  const openFirstProject = () => {
-     const tab1 = document.getElementById('project1')
+  const screenWidth = window.innerWidth;
+  
+    const tab1 = document.getElementById('project1')
     const tab2 = document.getElementById('project2')
     const tab3 = document.getElementById('project3')
     const tab4 = document.getElementById('project4')
+
+  const openFirstProject = () => {
+    openProject1(!project1Open)
+    openProject2(false)
+    openProject3(false)
+    openProject4(false)
     
-    if (screenWidth <= 780) {
-      tab1.style.height = 'calc(100% - 50px)'
-    tab2.style.height = '50px'
-    tab3.style.height = '50px'
-    tab4.style.height = '50px'
+     if (!project1Open) {
+     
+    
+     if (screenWidth <= 780) {
+      tab1.style.height = '400vh'
+    tab2.style.height = '0px'
+    tab3.style.height = '0px'
+    tab4.style.height = '0px'
     } else {
        tab1.style.width = 'calc(100% - 240px)'
-    tab2.style.width = '80px'
+    tab2.style.width =  '80px'
     tab3.style.width = '80px'
     tab4.style.width = '80px'
     }
    
-    openProject1(true)
-    openProject2(false)
-    openProject3(false)
-    openProject4(false)
-
-  }
-  const openSecondProject = () => {
-    const tab1 = document.getElementById('project1')
-    const tab2 = document.getElementById('project2')
-    const tab3 = document.getElementById('project3')
-    const tab4 = document.getElementById('project4')
     
-     if (screenWidth < 780) {
+    } else {
+       
+     if (screenWidth <= 780) {
       tab1.style.height = '50px'
-    tab2.style.height =  'calc(100% - 50px)'
+    tab2.style.height = '50px'
     tab3.style.height = '50px'
     tab4.style.height = '50px'
     } else {
        tab1.style.width = '80px'
-    tab2.style.width = 'calc(100% - 240px)'
+    tab2.style.width =  '80px'
     tab3.style.width = '80px'
     tab4.style.width = '80px'
     }
-    
-    openProject1(false)
-    openProject2(true)
+    }
+   
+
+  }
+  const openSecondProject = () => {
+
+     openProject1(false)
+    openProject2(!project2Open)
     openProject3(false)
     openProject4(false)
+
+    if (!project2Open) {
+     
+    
+     if (screenWidth <= 780) {
+      tab1.style.height = '0px'
+    tab2.style.height = '400vh'
+    tab3.style.height = '0px'
+    tab4.style.height = '0px'
+    } else {
+       tab1.style.width = '80px'
+    tab2.style.width =  'calc(100% - 240px)'
+    tab3.style.width = '80px'
+    tab4.style.width = '80px'
+    }
+   
+    
+    } else {
+       
+     if (screenWidth <= 780) {
+      tab1.style.height = '50px'
+    tab2.style.height = '50px'
+    tab3.style.height = '50px'
+    tab4.style.height = '50px'
+    } else {
+       tab1.style.width = '80px'
+    tab2.style.width =  '80px'
+    tab3.style.width = '80px'
+    tab4.style.width = '80px'
+    }
+    }
+   
+   
     
   }
   const openThirdProject = () => {
-    const tab1 = document.getElementById('project1')
-    const tab2 = document.getElementById('project2')
-    const tab3 = document.getElementById('project3')
-    const tab4 = document.getElementById('project4')
+
+       openProject1(false)
+    openProject2(false)
+    openProject3(!project3Open)
+    openProject4(false)
     
-    tab1.style.width = '80px'
-    tab2.style.width = '80px'
+     if (!project3Open) {
+     
+    
+     if (screenWidth <= 780) {
+      tab1.style.height = '0px'
+    tab2.style.height = '0px'
+    tab3.style.height = '400vh'
+    tab4.style.height = '0px'
+    } else {
+       tab1.style.width = '80px'
+    tab2.style.width =  '80px'
     tab3.style.width = 'calc(100% - 240px)'
     tab4.style.width = '80px'
-    openProject1(false)
-    openProject2(false)
-    openProject3(true)
-    openProject4(false)
+    }
+   
+    
+    } else {
+       
+     if (screenWidth <= 780) {
+      tab1.style.height = '50px'
+    tab2.style.height = '50px'
+    tab3.style.height = '50px'
+    tab4.style.height = '50px'
+    } else {
+       tab1.style.width = '80px'
+    tab2.style.width =  '80px'
+    tab3.style.width = '80px'
+    tab4.style.width = '80px'
+    }
+    }
+ 
     
   }
   const openForthProject = () => {
-    const tab1 = document.getElementById('project1')
-    const tab2 = document.getElementById('project2')
-    const tab3 = document.getElementById('project3')
-    const tab4 = document.getElementById('project4')
-    
-    tab1.style.width = '80px'
-    tab2.style.width = '80px'
-    tab3.style.width = '80px'
-    tab4.style.width = 'calc(100% - 240px)'
-    openProject1(false)
+       openProject1(false)
     openProject2(false)
     openProject3(false)
-    openProject4(true)
+    openProject4(!project4Open)
+  
+   if (!project4Open) {
+     
+    
+     if (screenWidth <= 780) {
+      tab1.style.height = '0px'
+    tab2.style.height = '0px'
+    tab3.style.height = '0px'
+    tab4.style.height = '400vh'
+    } else {
+       tab1.style.width = '80px'
+    tab2.style.width =  '80px'
+    tab3.style.width = '80px'
+    tab4.style.width = 'calc(100% - 240px)'
+    }
+   
+    
+    } else {
+       
+     if (screenWidth <= 780) {
+      tab1.style.height = '50px'
+    tab2.style.height = '50px'
+    tab3.style.height = '50px'
+    tab4.style.height = '50px'
+    } else {
+       tab1.style.width = '80px'
+    tab2.style.width =  '80px'
+    tab3.style.width = '80px'
+    tab4.style.width = '80px'
+    }
+    }
+ 
+ 
     
   }
 
@@ -119,14 +206,14 @@ const Projects = () => {
           <span className='project-title'>03. 1154 Pastaria</span>
           <span className='project-year'>2022</span>
           {project3Open &&
-           <Project1/>}
+           <Restaurant/>}
         </div>
 
         <div className='project' id='project4' onClick={openForthProject}>
           <span className='project-title'>04. MEANWHILE</span>
           <span className='project-year'>2022</span>
           {project4Open &&
-           <Project1/>}
+           <Meanwhile/>}
         </div>
         
          <div className='joker-container'>

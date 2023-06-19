@@ -45,7 +45,7 @@ const Nav = () => {
         <div className='navbar'>
             {!loading && <>
                 <Link to={'/'}><div className='logo'>samantha mitchell</div></Link>
-          <div className='tag'>Desginer & developer</div>
+          <div className='tag'>Designer & developer</div>
           <ul className='navlinks'>
             <Link to={'/projects'}><li id='projectsLink' className=''>projects</li></Link>
                     <Link to={'/info'}><li id='infoLink'>info</li>

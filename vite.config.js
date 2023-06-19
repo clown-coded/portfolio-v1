@@ -4,13 +4,7 @@ import ViteFonts from 'vite-plugin-fonts';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),  ViteFonts({
-    custom: {
-        families: {
-            'Keypunch029': './public/fonts/Keypunch029.otf'
-        }
-    }
-})],
+  plugins: [react(),],
  
  
 
