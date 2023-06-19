@@ -34,7 +34,10 @@ setTimeout(loadIn, 2000)
                    
                     <span className='description'>A redesign on the MEANWHILE Artist Run Space website. </span>
                     <br />
-                    <span className='description'>Github</span>
+                    <a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer"><span className='description'>Github</span> </a>
+                    <a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer"><span className='description'>Live site</span> </a>
+                    
+
                     
               
           </div>

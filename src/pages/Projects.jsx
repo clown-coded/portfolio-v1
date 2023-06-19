@@ -29,7 +29,7 @@ const Projects = () => {
      
     
      if (screenWidth <= 780) {
-      tab1.style.height = '400vh'
+      tab1.style.height = '600vh'
     tab2.style.height = '0px'
     tab3.style.height = '0px'
     tab4.style.height = '0px'
@@ -70,7 +70,7 @@ const Projects = () => {
     
      if (screenWidth <= 780) {
       tab1.style.height = '0px'
-    tab2.style.height = '400vh'
+    tab2.style.height = '600vh'
     tab3.style.height = '0px'
     tab4.style.height = '0px'
     } else {
@@ -112,7 +112,7 @@ const Projects = () => {
      if (screenWidth <= 780) {
       tab1.style.height = '0px'
     tab2.style.height = '0px'
-    tab3.style.height = '400vh'
+    tab3.style.height = '600vh'
     tab4.style.height = '0px'
     } else {
        tab1.style.width = '80px'
@@ -152,7 +152,7 @@ const Projects = () => {
       tab1.style.height = '0px'
     tab2.style.height = '0px'
     tab3.style.height = '0px'
-    tab4.style.height = '400vh'
+    tab4.style.height = '600vh'
     } else {
        tab1.style.width = '80px'
     tab2.style.width =  '80px'

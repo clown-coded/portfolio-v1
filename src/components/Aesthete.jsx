@@ -31,10 +31,10 @@ setTimeout(loadIn, 2000)
            </div>
                 <div className='project-info-container'>
                     <span className='title'>Aesthete Digital Marketplace</span>
-                    <span className='description'>Project Information</span>
+                    
                     <span className='description'>A platform for designers from Aotearoa to sell their designs. </span>
                     <br />
-                    <span className='description'>Github</span>
+                     <a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer"><span className='description'>Github</span> </a>
                     
               
           </div>

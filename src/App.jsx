@@ -38,7 +38,8 @@ function App() {
 
   return (
     <HashRouter>
-      <Cursor/>
+      {screenWidth > 780 && <Cursor/> }
+      
       <Nav />
       <LoadingScreen/>
       <Links />

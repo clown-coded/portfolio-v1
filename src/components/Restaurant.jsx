@@ -28,8 +28,9 @@ setTimeout(loadIn, 2000)
            </div>
                 <div className='project-info-container'>
                     <span className='title'>1154 Digital Ordering System</span>
-                    <span className='description'>Project Information</span>
-                    <span className='description'>A design for a tablet & mobile at table ordering system at 1154 Pastaria. Intended to be a digitized version of the current menu.</span>
+            <span className='description'>A design for a tablet & mobile at table ordering system at 1154 Pastaria. Intended to be a digitized version of the current menu.</span>
+            <br/>
+            <a href='https://github.com/clown-coded/1154-menu' target="_blank" rel="noopener noreferrer"><span className='description'>Github</span> </a>
               
           </div>
       

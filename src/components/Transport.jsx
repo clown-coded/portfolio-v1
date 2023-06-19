@@ -37,7 +37,7 @@ setTimeout(loadIn, 2000)
            </div>
                 <div className='project-info-container'>
                     <span className='title'>Be Your Own Tour Guide</span>
-                    <span className='description'>Project Information</span>
+                    
                     <span className='description'>A description of aesthete that i jhavent written yet whoops</span>
               
           </div>
