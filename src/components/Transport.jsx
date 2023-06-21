@@ -36,11 +36,25 @@ setTimeout(loadIn, 2000)
               
            </div>
                 <div className='project-info-container'>
-                    <span className='title'>Be Your Own Tour Guide</span>
+                <div className="inner-container">
+                <span className='title'>Be Your Own Tour Guide</span>
+                <span className='description'>A car rental collaboration between Tourism NZ and ARTMAP to lower barriers to arts tourism </span>
+                    </div>
                     
-                    <span className='description'>A description of aesthete that i jhavent written yet whoops</span>
-              
-          </div>
+                    <br />
+                    <div className="links-container">
+                    <div className='link'>
+                        <span>Stack</span>
+                        
+                       <span className='stack-info'>Built with HTML, CSS, Javascript, jQuery </span>
+                        </div>
+
+                        <span className='link'><a href='https://github.com/clown-coded/1154-menu' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
+                    </div>
+                    </div>
+                    
+                    
+         
       
        </div>}
         </>

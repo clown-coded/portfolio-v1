@@ -93,11 +93,11 @@ a, a:link, a:visited, a:hover, a:active{
 
 .tag{
     
-    letter-spacing: 0.5px;
+    
     transform-origin: bottom right;
     transform: rotate(-90deg);
     position: relative;
-    
+   
     top: 80px;
     user-select: none;
     animation: fadeIn .7s ease;
@@ -242,7 +242,7 @@ a, a:link, a:visited, a:hover, a:active{
 }
 
 .images-container{
-    padding-top: 10px;
+    
     position: relative;
     width: 50%;
    
@@ -251,25 +251,27 @@ a, a:link, a:visited, a:hover, a:active{
 }
 .project-image{
     width: 100%;
-    padding: 5px;
+    // padding: 5px;
 }
 .project-video{
     width: 100%;
-    padding: 5px;
+    // padding: 5px;
 }
 .video-container{
-    margin: 5px;
-    width: 98%;
-    padding: 40px;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 100px;
     background-color: $black;
 }
 .project-info-container{
     position: relative;
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
     width: 50%;
-    padding: 20px;
-    padding-left: 40px;
+    
+    border-left: 1px solid $black;
+    
     justify-content: right;
      
    
@@ -278,21 +280,86 @@ a, a:link, a:visited, a:hover, a:active{
 
 .title{
     position: relative;
-    width: 90%;
-   
-    padding-top: 50px;
-    padding-bottom: 10px;
-   text-align: right;
+    line-height: 1.1;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    text-align: right;
     border-bottom: 1px solid $black;
-    font-size: 20px;
+    border-top: 1px solid $black;
+    font-size: 2.9vw;
     font-weight: 600;
+    padding-left: 100px;
 }
 .description{
-    padding-top: 40px;
-    width: 70%;
-    letter-spacing: 0.5px;
+  
+    padding-top: 80px;
+    padding-left: 40px;
+    font-size: 1vw;
+    width: 90%;
+   
+    font-weight: 400;
+    
+    position: relative;
    
 }
+.inner-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-end;
+    flex-direction: column;
+    bottom: 300px;
+}
+
+.links-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.link{
+  
+    z-index: 50;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-top: 1px solid $black;
+    width: 100%;
+    font-size: 1vw;
+    padding-left: 40px;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    // margin-top: 100px;
+    transition: all .5s ease;
+
+    &:hover{
+     height: 70px;
+        padding-bottom: 30px;
+        opacity: .8;
+        
+       
+    }
+}
+.stack-info{
+    position: absolute;
+    padding-left: 4vw;
+    width: 100%;
+    font-size: 1vw;
+    padding-top: 2px;
+    margin-left: 20px;
+    color: #e6f1dc;
+    transition: all 1s ease;
+    &:hover{
+        color: $black
+    };
+}
+
 
  .contact-container{
     
@@ -334,7 +401,7 @@ a, a:link, a:visited, a:hover, a:active{
 .info-container{
     font-family: 'Keypunch029';
     
-    letter-spacing: .5px;
+    // letter-spacing: .5px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -380,7 +447,7 @@ a, a:link, a:visited, a:hover, a:active{
 
 // MOBILE
 
-@media screen  and (max-width: 560px){
+@media screen  and (max-width: 1024px){
      .navbar{
     width: 70px;
     height: calc(100vh - 30px);
@@ -434,7 +501,7 @@ a, a:link, a:visited, a:hover, a:active{
         z-index: 10;
    
     flex-direction: column;
-    top: 50px;
+bottom: 50px;
     // margin-top: 20px;
     // margin-bottom: 20px;
     width: 100%;
@@ -443,16 +510,18 @@ a, a:link, a:visited, a:hover, a:active{
     
     }
     .images-container{
-    
+    position: relative;
     width: 100%;
    height: auto;
 
+   top: 100px;
     overflow-y: scroll;
     }
 
     .project-info-container{
     height: 100vh;
     width: 100%;
+    justify-content: flex-start;
     // border-bottom: 2px solid black;
     overflow-y: scroll;
 }
@@ -518,137 +587,152 @@ a, a:link, a:visited, a:hover, a:active{
         width: calc(100vw - 90px);
     }
 }
+
+.links-container{
+    position: relative;
+    bottom: 130px;
 }
 
-// TABLET
-@media only screen and (min-width: 560px) and (max-width: 780px) {
+.title{
+    padding-right: 10px;
+    font-size: 7vw;
+}
+.description{
+    font-size: 4vw;
+    width: 90%;
+}
+}
 
-    .navbar{
-    width: 70px;
-    height: calc(100vh - 30px);
-    }
-    .content-component{
-        width: calc(100vw - 90px);
-        left: 75px;
-        height: calc(150px + 100vh);
-        border-radius: 0px 20px 0px 0px;
-    }
-    .logo{
-        font-size: 23px;
-         right: 20px;
-    }
+// // TABLET
+// @media only screen and (min-width: 560px) and (max-width: 780px) {
 
-    .tag{
-        right: 20px;
-        font-size: 14px;
-    }
-    .navlinks{
-        font-size: 14px;
-    }
+//     .navbar{
+//     width: 70px;
+//     height: calc(100vh - 30px);
+//     }
+//     .content-component{
+//         width: calc(100vw - 90px);
+//         left: 75px;
+//         height: calc(150px + 100vh);
+//         border-radius: 0px 20px 0px 0px;
+//     }
+//     .logo{
+//         font-size: 23px;
+//          right: 20px;
+//     }
 
-    .projects-container{
-    flex-direction: column ;
-    overflow-y: scroll;
-    height: calc(150px + 100vh);
-    top: 0px;
-    }
-    .project{
+//     .tag{
+//         right: 20px;
+//         font-size: 14px;
+//     }
+//     .navlinks{
+//         font-size: 14px;
+//     }
+
+//     .projects-container{
+//     flex-direction: column ;
+//     overflow-y: scroll;
+//     height: calc(150px + 100vh);
+//     top: 0px;
+//     }
+//     .project{
         
-        background-color: $white;
-        border-bottom: 1px solid $black;
-        width: 100%;
-        height: 50px;
-        border-radius: 0px 20px 0px 0px;
-    }
-    .project-title{
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        font-size: 12px;
-    }
+//         background-color: $white;
+//         border-bottom: 1px solid $black;
+//         width: 100%;
+//         height: 50px;
+//         border-radius: 0px 20px 0px 0px;
+//     }
+//     .project-title{
+//         position: absolute;
+//         top: 20px;
+//         left: 20px;
+//         font-size: 12px;
+//     }
 
-    .project-year{
-         font-size: 12px;
-         right: 20px;
-         top: 20px;
+//     .project-year{
+//          font-size: 12px;
+//          right: 20px;
+//          top: 20px;
          
-    }
-    .project-contents{
-        z-index: 10;
+//     }
+//     .project-contents{
+//         z-index: 10;
    
-    flex-direction: column;
-    top: 50px;
-    // margin-top: 20px;
-    // margin-bottom: 20px;
-    width: 100%;
-    height: auto;
-    animation: fadeIn 1s ease;
+//     flex-direction: column;
+//     top: 50px;
+//     // margin-top: 20px;
+//     // margin-bottom: 20px;
+//     width: 100%;
+//     height: auto;
+//     animation: fadeIn 1s ease;
     
-    }
-    .images-container{
+//     }
+//     .images-container{
     
-    width: 100%;
-   height: auto;
+//     width: 100%;
+//    height: auto;
 
-    overflow-y: scroll;
-    }
+//     overflow-y: scroll;
+//     }
 
-    .project-info-container{
-    height: 100vh;
-    width: 100%;
-    // border-bottom: 2px solid black;
-    overflow-y: scroll;
-}
-.projects-container > .joker-container {
-    left: 0;
-}
+//     .project-info-container{
+//         justify-content: flex-end;
+//     height: 100vh;
+//     width: 100%;
+//     // border-bottom: 2px solid black;
+//     overflow-y: scroll;
+// }
+// .projects-container > .joker-container {
+//     left: 0;
+// }
 
 
 
-.joker{
-    height: 58%;
-   left: 20px;
-   bottom: -180px;
+// .joker{
+//     height: 58%;
+//    left: 20px;
+//    bottom: -180px;
    
-}
-.click-zone{
-    left: 165px;
-    top: 170px;
-}
-.contact-container{
-    width: 50%;
-    right: -60px;
+// }
+// .click-zone{
+//     left: 165px;
+//     top: 170px;
+// }
+// .contact-container{
+//     width: 50%;
+//     right: -60px;
    
-}
-.contact-container > .gh{
-        margin-bottom: 30px;
-    }
-    .info-container{
-    font-size: 14px;
-     right: 50px;
-    width: 40%;
-    bottom: 200px;
-}
+// }
+// .contact-container > .gh{
+//         margin-bottom: 30px;
+//     }
+//     .info-container{
+//     font-size: 14px;
+//      right: 50px;
+//     width: 40%;
+//     bottom: 200px;
+// }
 
-.loading-joker{
-    width: 150px;
-    position: absolute;
-    bottom: 80px;
-    right: 70px;
-}
-@keyframes slideOpen{
-    0% {
-        width: 0;
-    }
-    100%{
-        width: calc(100vw - 90px);
-    }
-}
-}
+// .loading-joker{
+//     width: 150px;
+//     position: absolute;
+//     bottom: 80px;
+//     right: 70px;
+// }
+// @keyframes slideOpen{
+//     0% {
+//         width: 0;
+//     }
+//     100%{
+//         width: calc(100vw - 90px);
+//     }
+// }
+// }
 
 
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1024px) {
 
     .navbar{
     width: 130px;
@@ -668,8 +752,9 @@ a, a:link, a:visited, a:hover, a:active{
     }
 
     .tag{
-        font-size: 15px;
-        right: 47px;
+        font-size: 20px;
+        right: 38px;
+    
     }
     .navlinks{
         font-size: 16px;
@@ -686,20 +771,20 @@ a, a:link, a:visited, a:hover, a:active{
     
     border-bottom: none;
     border-left: 1px solid $black;
-    width:80px;
+    width: 80px;
     height: 100%;
     border-radius: 0px 20px 20px 0px;
     background-color: $white;
    &:hover{
     transition: all .5s ease;
-    width: 85px;
+    width: 90px;
    }
    user-select: none;
 }
 
 .project-title{
     
-    font-size: 20px;
+    font-size: 2.5vh;
     
     transform-origin: top left;
     transform: rotate(-90deg);
@@ -710,7 +795,7 @@ a, a:link, a:visited, a:hover, a:active{
 .project-year{
     position: absolute;
     font-family: 'Keypunch029';
-    font-size: 20px;
+    font-size: 2.5vh;
     font-weight: 100;
     transform-origin: top left;
     transform: rotate(-90deg);
@@ -742,6 +827,7 @@ a, a:link, a:visited, a:hover, a:active{
     overflow-y: scroll;
 }
 .project-info-container{
+    justify-content: flex-end;
     position: relative;
     width: 50%;
     
@@ -799,7 +885,7 @@ a, a:link, a:visited, a:hover, a:active{
 }
 
 .info-container{
-    font-size: 16px;
+    font-size: 1vw;
      right: 50px;
     width: 40%;
     bottom: 50px;
@@ -811,6 +897,8 @@ a, a:link, a:visited, a:hover, a:active{
     bottom: 80px;
     right: 70px;
 }
+
+
 
 @keyframes slideOpen{
     0% {

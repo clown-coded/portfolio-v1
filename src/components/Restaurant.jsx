@@ -27,12 +27,28 @@ setTimeout(loadIn, 2000)
               
            </div>
                 <div className='project-info-container'>
-                    <span className='title'>1154 Digital Ordering System</span>
-            <span className='description'>A design for a tablet & mobile at table ordering system at 1154 Pastaria. Intended to be a digitized version of the current menu.</span>
-            <br/>
-            <a href='https://github.com/clown-coded/1154-menu' target="_blank" rel="noopener noreferrer"><span className='description'>Github</span> </a>
+
+                <div className="inner-container">
+                <span className='title'>1154 Digital Ordering System</span>
+                <span className='description'>1154 Pastaria is a pasta restaurant on Cuba st, Wellington. A proposed design for a digitization of the current menu to used on tablet & mobile for at table ordering.</span>
               
-          </div>
+                    </div>
+                    
+                    <br />
+                    <div className="links-container">
+                    <div className='link'>
+                        <span>Stack</span>
+                        
+                       <span className='stack-info'>Built with HTML, CSS and Javascript </span>
+                        </div>
+
+                        <span className='link'><a href='https://github.com/clown-coded/1154-menu' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
+                    </div>
+                    </div>
+                    
+
+
+          
       
        </div>}
         </>

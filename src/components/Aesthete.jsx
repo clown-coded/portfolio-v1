@@ -7,6 +7,7 @@ import video from '../../public/assets/aesthete/aesthete-4.mp4'
 const Aesthete = () => {
 const [loading, setLoading] = useState(true)
 
+
 function loadIn() {
     setLoading(false)
 }
@@ -30,11 +31,24 @@ setTimeout(loadIn, 2000)
               
            </div>
                 <div className='project-info-container'>
+                    <div className="inner-container">
                     <span className='title'>Aesthete Digital Marketplace</span>
                     
-                    <span className='description'>A platform for designers from Aotearoa to sell their designs. </span>
+                    <span className='description'>Aesthete is a platform for emerging designers and creatives from across Aotearoa New Zealand to list their designs for purchase. Focusing on goods and garments (painting, art prints, ceramics & pottery, clothing, jewellery, accessories), the platform aims to encourage owning and collecting art as a habit, not a luxury, and to move away from mass consumption. </span>
+                    
+                    </div>
+                    
                     <br />
-                     <a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer"><span className='description'>Github</span> </a>
+                    <div className="links-container">
+                    <div className='link'>
+                        <span>Stack</span>
+                        
+                       <span className='stack-info'>Built with HTML, CSS, Javascript, MongoDB </span>
+                        </div>
+
+                    <span className='link'><a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer">Github   ↗</a></span>
+                    </div>
+                    
                     
               
           </div>
