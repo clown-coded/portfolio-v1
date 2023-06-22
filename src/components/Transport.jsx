@@ -49,7 +49,7 @@ setTimeout(loadIn, 2000)
                        <span className='stack-info'>Built with HTML, CSS, Javascript, jQuery </span>
                         </div>
 
-                        <span className='link'><a href='https://github.com/clown-coded/1154-menu' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
+                        <span className='link'><a href='https://github.com/clown-coded/transport-app' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
                     </div>
                     </div>
                     

@@ -45,7 +45,7 @@ setTimeout(loadIn, 2000)
                        <span className='stack-info'>Built with WordPress and React </span>
                         </div>
 
-                        <span className='link'><a href='https://github.com/clown-coded/1154-menu' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
+                        <span className='link'><a href='https://github.com/clown-coded/mw-website' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
                         <span className='link'><a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer">Live site ↗</a></span>
           </div>
           </div>

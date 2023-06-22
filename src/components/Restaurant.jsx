@@ -30,7 +30,8 @@ setTimeout(loadIn, 2000)
 
                 <div className="inner-container">
                 <span className='title'>1154 Digital Ordering System</span>
-                <span className='description'>1154 Pastaria is a pasta restaurant on Cuba st, Wellington. A proposed design for a digitization of the current menu to used on tablet & mobile for at table ordering.</span>
+                <span className='description'>1154 Pastaria is a pasta restaurant on Cuba st, Wellington. 
+                A proposed design for a digitization of the current menu to be used on tablet & mobile for at table ordering.</span>
               
                     </div>
                     
