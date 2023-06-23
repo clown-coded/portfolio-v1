@@ -46,7 +46,7 @@ setTimeout(loadIn, 2000)
                         </div>
 
                         <span className='link'><a href='https://github.com/clown-coded/mw-website' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
-                        <span className='link'><a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer">Live site ↗</a></span>
+                        <span className='link'><a href='https://meanwhile.vercel.app/' target="_blank" rel="noopener noreferrer">Live site ↗</a></span>
           </div>
           </div>
       
