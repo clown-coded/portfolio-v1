@@ -39,6 +39,8 @@ setTimeout(loadIn, 2000)
                 <div className="inner-container">
                 <span className='title'>Be Your Own Tour Guide</span>
                 <span className='description'>A car rental collaboration between Tourism NZ and ARTMAP to lower barriers to arts tourism </span>
+                <br/>
+                <span className='description'>This project was for academic purposes only.</span>
                     </div>
                     
                     <br />
