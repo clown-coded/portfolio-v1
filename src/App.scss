@@ -3,7 +3,7 @@ $white: #e6f1dc;
 $red: #B40000;
 
 @font-face {
-    font-family: Keypunch029, Arial, Helvetica, sans-serif;
+    font-family: Keypunch029, Helvetica, sans-serif;
     src: url(../fonts/Keypunch029.otf);
    
 }
@@ -70,7 +70,7 @@ a, a:link, a:visited, a:hover, a:active{
 }
 
 .logo{
-    font-family: 'Keypunch029';
+    font-family: 'Keypunch029',  Helvetica, sans-serif;;
     
     transform-origin: bottom right;
     transform: rotate(-90deg);
@@ -83,7 +83,7 @@ a, a:link, a:visited, a:hover, a:active{
 .loading-logo{
     position: absolute;
     color: $white;
-    font-family: 'Keypunch029';
+    font-family: 'Keypunch029', Helvetica, sans-serif;;
     font-weight: 100;
     font-size: 50px;
     bottom: 20px;
@@ -209,7 +209,7 @@ a, a:link, a:visited, a:hover, a:active{
 
 .project-title{
     position: absolute;
-    font-family: 'Keypunch029';
+    font-family: 'Keypunch029',  Helvetica, sans-serif;;
     
     font-weight: 100;
     // transform-origin: top left;
@@ -220,7 +220,7 @@ a, a:link, a:visited, a:hover, a:active{
 }
 .project-year{
     position: absolute;
-    font-family: 'Keypunch029';
+    font-family: 'Keypunch029', Helvetica, sans-serif;;
     
     font-weight: 100;
     
@@ -371,7 +371,7 @@ a, a:link, a:visited, a:hover, a:active{
     animation: fadeIn .5s ease;
 
     span{
-        font-family: 'Keypunch029';
+        font-family: 'Keypunch029', Helvetica, sans-serif;;
         font-size: 20px;
        
     }
@@ -398,7 +398,7 @@ a, a:link, a:visited, a:hover, a:active{
 }
 
 .info-container{
-    font-family: 'Keypunch029';
+    font-family: 'Keypunch029', Helvetica, sans-serif;
     
     // letter-spacing: .5px;
     position: absolute;
@@ -572,7 +572,7 @@ bottom: 50px;
 .loading-logo{
     position: absolute;
     color: $white;
-    font-family: 'Keypunch029';
+    font-family: 'Keypunch029', Helvetica, sans-serif;
     font-weight: 100;
     font-size: 30px;
     bottom: 20px;
@@ -793,7 +793,7 @@ bottom: 50px;
 }
 .project-year{
     position: absolute;
-    font-family: 'Keypunch029';
+    font-family: 'Keypunch029', Helvetica, sans-serif;
     font-size: 2.5vh;
     font-weight: 100;
     transform-origin: top left;
