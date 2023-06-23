@@ -34,10 +34,11 @@ const Projects = () => {
     tab3.style.height = '0px'
     tab4.style.height = '0px'
     } else {
-       tab1.style.width = 'calc(100% - 240px)'
-    tab2.style.width =  '80px'
-    tab3.style.width = '80px'
-    tab4.style.width = '80px'
+       tab1.style.width =  'calc(100% - 150px)'
+    tab2.style.width = '50px'
+    tab3.style.width = '50px'
+    tab4.style.width = '50px'
+    
     }
    
     
@@ -49,10 +50,10 @@ const Projects = () => {
     tab3.style.height = '50px'
     tab4.style.height = '50px'
     } else {
-       tab1.style.width = '80px'
-    tab2.style.width =  '80px'
-    tab3.style.width = '80px'
-    tab4.style.width = '80px'
+       tab1.style.width = '50px'
+    tab2.style.width =  '50px'
+    tab3.style.width = '50px'
+    tab4.style.width = '50px'
     }
     }
    
@@ -73,11 +74,11 @@ const Projects = () => {
     tab2.style.height = '600vh'
     tab3.style.height = '0px'
     tab4.style.height = '0px'
-    } else {
-       tab1.style.width = '80px'
-    tab2.style.width =  'calc(100% - 240px)'
-    tab3.style.width = '80px'
-    tab4.style.width = '80px'
+    }else {
+       tab1.style.width = '50px'
+    tab2.style.width =  'calc(100% - 150px)'
+    tab3.style.width = '50px'
+    tab4.style.width = '50px'
     }
    
     
@@ -89,10 +90,10 @@ const Projects = () => {
     tab3.style.height = '50px'
     tab4.style.height = '50px'
     } else {
-       tab1.style.width = '80px'
-    tab2.style.width =  '80px'
-    tab3.style.width = '80px'
-    tab4.style.width = '80px'
+       tab1.style.width = '50px'
+    tab2.style.width =  '50px'
+    tab3.style.width = '50px'
+    tab4.style.width = '50px'
     }
     }
    
@@ -115,10 +116,10 @@ const Projects = () => {
     tab3.style.height = '600vh'
     tab4.style.height = '0px'
     } else {
-       tab1.style.width = '80px'
-    tab2.style.width =  '80px'
-    tab3.style.width = 'calc(100% - 240px)'
-    tab4.style.width = '80px'
+       tab1.style.width = '50px'
+    tab2.style.width =  '50px'
+    tab3.style.width = 'calc(100% - 150px)'
+    tab4.style.width = '50px'
     }
    
     
@@ -154,10 +155,10 @@ const Projects = () => {
     tab3.style.height = '0px'
     tab4.style.height = '600vh'
     } else {
-       tab1.style.width = '80px'
-    tab2.style.width =  '80px'
-    tab3.style.width = '80px'
-    tab4.style.width = 'calc(100% - 240px)'
+       tab1.style.width = '50px'
+    tab2.style.width =  '50px'
+    tab3.style.width = '50px'
+    tab4.style.width = 'calc(100% - 150px)'
     }
    
     
@@ -169,10 +170,10 @@ const Projects = () => {
     tab3.style.height = '50px'
     tab4.style.height = '50px'
     } else {
-       tab1.style.width = '80px'
-    tab2.style.width =  '80px'
-    tab3.style.width = '80px'
-    tab4.style.width = '80px'
+       tab1.style.width = '50px'
+    tab2.style.width =  '50px'
+    tab3.style.width = '50px'
+    tab4.style.width = '50px'
     }
     }
  

@@ -41,12 +41,12 @@ setTimeout(loadIn, 2000)
                     <br />
                     <div className="links-container">
                     <div className='link'>
-                        <span>Stack</span>
+                        <span>01. Stack</span>
                         
                        <span className='stack-info'>Built with HTML, CSS, Javascript, MongoDB </span>
                         </div>
 
-                    <span className='link'><a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer">Github   ↗</a></span>
+                    <span className='link'><a href='https://github.com/5torey/sic-summative-3' target="_blank" rel="noopener noreferrer">02. Github   ↗</a></span>
                     </div>
                     
                     

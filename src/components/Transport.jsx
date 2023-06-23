@@ -46,12 +46,12 @@ setTimeout(loadIn, 2000)
                     <br />
                     <div className="links-container">
                     <div className='link'>
-                        <span>Stack</span>
+                        <span>01. Stack</span>
                         
                        <span className='stack-info'>Built with HTML, CSS, Javascript, jQuery </span>
                         </div>
 
-                        <span className='link'><a href='https://github.com/clown-coded/transport-app' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
+                        <span className='link'><a href='https://github.com/clown-coded/transport-app' target="_blank" rel="noopener noreferrer">02. Github ↗</a></span> 
                     </div>
                     </div>
                     

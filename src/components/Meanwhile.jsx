@@ -40,13 +40,13 @@ setTimeout(loadIn, 2000)
                     <br />
                     <div className="links-container">
                     <div className='link'>
-                        <span>Stack</span>
+                        <span>01. Stack</span>
                         
                        <span className='stack-info'>Built with WordPress and React </span>
                         </div>
 
-                        <span className='link'><a href='https://github.com/clown-coded/mw-website' target="_blank" rel="noopener noreferrer">Github ↗</a></span> 
-                        <span className='link'><a href='https://meanwhile.vercel.app/' target="_blank" rel="noopener noreferrer">Live site ↗</a></span>
+                        <span className='link'><a href='https://github.com/clown-coded/mw-website' target="_blank" rel="noopener noreferrer">02. Github ↗</a></span> 
+                        <span className='link'><a href='https://meanwhile.vercel.app/' target="_blank" rel="noopener noreferrer">03. Live site ↗</a></span>
           </div>
           </div>
       
