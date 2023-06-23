@@ -311,6 +311,7 @@ a, a:link, a:visited, a:hover, a:active{
     display: flex;
     width: 100%;
     height: 100vh;
+   
     justify-content: flex-end;
     flex-direction: column;
     bottom: 190px;
@@ -532,6 +533,10 @@ a, a:link, a:visited, a:hover, a:active{
 }
 .projects-container > .joker-container {
     left: 0;
+}
+.inner-container{
+    overflow-x: hidden;
+    height: auto;
 }
 
 .joker-container{
