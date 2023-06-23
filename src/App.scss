@@ -3,10 +3,9 @@ $white: #e6f1dc;
 $red: #B40000;
 
 @font-face {
-    font-family: "Keypunch029";
-    src: url('./fonts/Keypunch029.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
+    font-family: Keypunch029, Arial, Helvetica, sans-serif;
+    src: url(../fonts/Keypunch029.otf);
+   
 }
 
 *{
@@ -72,7 +71,7 @@ a, a:link, a:visited, a:hover, a:active{
 
 .logo{
     font-family: 'Keypunch029';
-    
+    font-weight: 700;
     transform-origin: bottom right;
     transform: rotate(-90deg);
     position: relative;
