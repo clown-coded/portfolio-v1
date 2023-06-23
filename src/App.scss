@@ -71,7 +71,8 @@ a, a:link, a:visited, a:hover, a:active{
 
 .logo{
     font-family: 'Keypunch029Regular',  neue-haas-grotesk-display, sans-serif;
-    
+    font-weight: normal;
+   font-style: normal;
     transform-origin: bottom right;
     transform: rotate(-90deg);
     position: relative;
@@ -84,7 +85,8 @@ a, a:link, a:visited, a:hover, a:active{
     position: absolute;
     color: $white;
     font-family: 'Keypunch029Regular', neue-haas-grotesk-display, sans-serif;
-    font-weight: 100;
+    font-weight: normal;
+   font-style: normal;
     font-size: 50px;
     bottom: 20px;
     right: 60px;
@@ -210,8 +212,8 @@ a, a:link, a:visited, a:hover, a:active{
 .project-title{
     position: absolute;
     font-family: 'Keypunch029Regular',  neue-haas-grotesk-display, sans-serif;
-    
-    font-weight: 100;
+    font-weight: normal;
+   font-style: normal;
     // transform-origin: top left;
     // transform: rotate(-90deg);
     width: fit-content;
@@ -221,8 +223,8 @@ a, a:link, a:visited, a:hover, a:active{
 .project-year{
     position: absolute;
     font-family: 'Keypunch029Regular', neue-haas-grotesk-display, sans-serif;
-    
-    font-weight: 100;
+    font-weight: normal;
+   font-style: normal;
     
     width: fit-content;
     white-space: nowrap;
@@ -372,6 +374,8 @@ a, a:link, a:visited, a:hover, a:active{
 
     span{
         font-family: 'Keypunch029Regular', neue-haas-grotesk-display, sans-serif;
+        font-weight: normal;
+   font-style: normal;
         font-size: 20px;
        
     }
@@ -399,7 +403,8 @@ a, a:link, a:visited, a:hover, a:active{
 
 .info-container{
     font-family: 'Keypunch029Regular', neue-haas-grotesk-display, sans-serif;
-    
+    font-weight: normal;
+   font-style: normal;
     // letter-spacing: .5px;
     position: absolute;
     display: flex;
@@ -573,7 +578,8 @@ bottom: 50px;
     position: absolute;
     color: $white;
     font-family: 'Keypunch029Regular', neue-haas-grotesk-display, sans-serif;
-    font-weight: 100;
+    font-weight: normal;
+   font-style: normal;
     font-size: 30px;
     bottom: 20px;
     right: 20px;
@@ -794,8 +800,10 @@ bottom: 50px;
 .project-year{
     position: absolute;
     font-family: 'Keypunch029Regular', neue-haas-grotesk-display, sans-serif;
+    font-weight: normal;
+   font-style: normal;
     font-size: 2.5vh;
-    font-weight: 100;
+
     transform-origin: top left;
     transform: rotate(-90deg);
     width: fit-content;
