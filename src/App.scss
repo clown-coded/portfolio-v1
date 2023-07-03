@@ -1,5 +1,5 @@
 $black: #272727;
-$white: #f7fdf2;
+$white: #e6e3dd;
 $red: #B40000;
 
 // @font-face {
@@ -522,27 +522,37 @@ a, a:link, a:visited, a:hover, a:active{
     width: 100%;
    height: auto;
 
-   top: 100px;
+   top: 50px;
+   margin-bottom: 50px;
     overflow-y: scroll;
+    }
+    .inner-container{
+        position: relative;
+        
+        height: auto;
     }
 
     .project-info-container{
-    height: auto;
+       
+    height: 100vh;
     width: 100%;
     justify-content: flex-start;
     // border-bottom: 2px solid black;
     overflow-y: scroll;
 }
+
+
 .projects-container > .joker-container {
     left: 0;
 }
 .inner-container{
     overflow-x: hidden;
     height: auto;
+    top: 0px;
 }
 
 .joker-container{
-    // bottom: 115px;
+    bottom: 50px;
 }
 
 .joker{
@@ -603,16 +613,21 @@ a, a:link, a:visited, a:hover, a:active{
 
 .links-container{
     position: relative;
-    bottom: 130px;
+    bottom: -50px;
 }
 
 .title{
     padding-right: 10px;
-    font-size: 7vw;
+    font-size: 6vw;
 }
 .description{
-    font-size: 4vw;
+    font-size: 3vw;
     width: 90%;
+}
+.stack-info{
+    color: $black;
+    font-size: 2.5vw;
+    margin-left: 50px;
 }
 }
 
